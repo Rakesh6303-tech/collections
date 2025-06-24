@@ -18,6 +18,7 @@ public class WordOccurenceMore3 {
 		Map<String,Integer> map = new LinkedHashMap<String,Integer>();
 		for(int i=0;i<ar.length;i++)
 		{
+			
 			// Check whether key already exists 
 			if(map.containsKey(ar[i]))
 			{
@@ -35,6 +36,17 @@ public class WordOccurenceMore3 {
 		// e----> contain key, value
 		for(Entry<String, Integer> e: entries)
 		{
+			// For Unique String Occured in the given string
+			// if(e.getValue()==1)
+			// {
+			// 	System.out.println(e.getKey());
+			// }
+				
+			// String Greater Than 1 will be occured
+//			if(e.getValue()>1)
+//			{
+//				System.out.println(e.getKey());
+//			}
 			// Occurence of Words 
 			//System.out.println(e.getKey()+": "+ e.getValue());
 			
